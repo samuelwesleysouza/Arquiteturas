@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Arquiteturas</string>
+    <string name="titulo_login">Login do Usuário</string>
+    <string name="text_button">Entrar</string>
+    <string name="hint_email">E-mail</string>
+    <string name="hint_senha">Senha</string>
+    <string name="text_tela_cadastro">Crie uma conta clicando aqui.</string>
+    <string name="titulo_cadastro">Cadastro de Usuário</string>
+    <string name="text_button_cadastrar">Cadastrar</string>
+</resources>

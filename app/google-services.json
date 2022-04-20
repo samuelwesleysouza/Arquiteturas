@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "23033932371",
+    "project_id": "projetomvp-356f9",
+    "storage_bucket": "projetomvp-356f9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:23033932371:android:a537a2c94285e6cbeb34a6",
+        "android_client_info": {
+          "package_name": "com.marcos.arquiteturas"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "23033932371-ikb3jq4gae7oo65sotfmkcqd4dpoaju3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB3t5BROJ_xudLs7njuKS__t0xf0emDAR0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "23033932371-ikb3jq4gae7oo65sotfmkcqd4dpoaju3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

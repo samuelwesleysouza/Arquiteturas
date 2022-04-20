@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg"
+    android:layout_margin="10dp"
+    tools:context=".FormCadastro">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/titulo_cadastro"
+        android:textSize="30sp"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_marginTop="150dp"/>
+
+    <EditText
+        android:id="@+id/edit_email"
+        style="@style/EditText"
+        android:hint="@string/hint_email"
+        android:inputType="textEmailAddress"
+        android:layout_marginTop="50dp"
+        android:autofillHints="@string/hint_email"/>
+
+    <EditText
+        android:id="@+id/edit_senha"
+        style="@style/EditText"
+        android:hint="@string/hint_senha"
+        android:inputType="numberPassword"
+        android:layout_marginTop="10dp"
+        android:autofillHints="@string/hint_senha"/>
+
+    <Button
+        android:id="@+id/bt_cadastrar"
+        style="@style/Button"
+        android:text="@string/text_button_cadastrar"
+        android:layout_marginTop="20dp"/>
+
+</LinearLayout>
